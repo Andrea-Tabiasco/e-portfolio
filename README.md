@@ -73,7 +73,7 @@
             <div class="space-y-2">
                 <h2 class="text-xs font-semibold tracking-widest uppercase text-stone-500">Marketing 4 Careers</h2>
                 <h3 class="text-2xl font-light text-stone-900">Mon Elevator Pitch (Vidéo)</h3>
-                <p class="text-sm text-stone-600 font-light">Oral retraçant mon parcours, mes projets et mes ambitions.</p>
+                <p class="text-sm text-stone-600 font-light">Présentation orale de 2 à 3 minutes retraçant mon parcours, mes projets et mes ambitions.</p>
             </div>
             
             <div class="aspect-video w-full bg-stone-300/80 rounded-xl flex flex-col items-center justify-center gap-3 border border-stone-300 text-stone-600">
@@ -131,7 +131,7 @@
 
     <!-- Footer -->
     <footer class="border-t border-stone-200 py-8 text-center text-xs text-stone-500 font-light">
-        <p>© 2026 Andrea Tabiasco • ENSEEIHT (N7) • E-Portfolio Marketing 4 Careers</p>
+        <p>© 2026 Andrea Tabiasco • ENSEEIHT (N7) • E-Portfolio</p>
     </footer>
 
     <script>
@@ -139,8 +139,3 @@
     </script>
 </body>
 </html>
-lucide.createIcons();
-    </script>
-</body>
-</html>
-        
