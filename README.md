@@ -1,1 +1,141 @@
-# e-portfolio
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrea Tabiasco — Élève-Ingénieur ENSEEIHT</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-stone-100 text-stone-900 antialiased selection:bg-stone-900 selection:text-white">
+
+    <!-- Navigation -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-stone-100/80 backdrop-blur-md border-b border-stone-200">
+        <div class="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="font-semibold text-sm tracking-tight text-stone-900">AT.</a>
+            <nav class="hidden md:flex space-x-8 text-xs font-medium tracking-wide text-stone-600">
+                <a href="#video-pitch" class="hover:text-stone-900 transition-colors">Vidéo Pitch</a>
+                <a href="#projects" class="hover:text-stone-900 transition-colors">Projets</a>
+                <a href="#mobility" class="hover:text-stone-900 transition-colors">Mobilité</a>
+            </nav>
+            <div class="flex items-center gap-3">
+                <span class="text-xs font-medium border border-stone-300 px-3.5 py-1.5 rounded-full bg-stone-200/50 text-stone-700">
+                    Contact :
+                </span>
+                <a href="mailto:andrea.tabiasco@etu.toulouse-inp.fr" class="text-xs font-medium text-stone-600 hover:text-stone-900 transition-colors flex items-center gap-1.5">
+                    <i data-lucide="mail" class="w-3.5 h-3.5"></i> andrea.tabiasco@etu.toulouse-inp.fr
+                </a>
+                <a href="tel:+33644372175" class="hidden sm:inline-flex items-center gap-1.5 text-xs font-medium text-stone-600 hover:text-stone-900 transition-colors">
+                    <i data-lucide="phone" class="w-3.5 h-3.5"></i> +33 6 44 37 21 75
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-6 pt-32 pb-24 space-y-24">
+
+        <!-- Hero Section -->
+        <section class="space-y-6">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-stone-200 text-stone-700 text-xs font-medium">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-600 animate-pulse"></span>
+                Recherche stage technique • Juin 2027
+            </div>
+            <h1 class="text-4xl md:text-5xl font-light tracking-tight text-stone-900 leading-[1.15]">
+                Andrea Tabiasco
+            </h1>
+            <p class="text-lg text-stone-600 font-light max-w-xl leading-relaxed">
+                Élève-ingénieur en 1ère année à l’<strong class="font-medium text-stone-900">ENSEEIHT (N7)</strong> en filière Électronique, Énergie Électrique et Automatique (EEA). Actuellement à la recherche d'un stage technique de 6 à 8 semaines dès juin 2027 dans le domaine de l'aéronautique et de l'aérospatiale.
+            </p>
+            
+            <!-- Liens LinkedIn & CVs -->
+            <div class="flex flex-wrap items-center gap-3 pt-2">
+                <a href="https://www.linkedin.com/in/andrea-tabiasco" target="_blank" class="inline-flex items-center gap-2 text-xs font-medium bg-stone-900 text-white px-4 py-2.5 rounded-full hover:bg-stone-800 transition-all">
+                    <i data-lucide="linkedin" class="w-3.5 h-3.5"></i> LinkedIn
+                </a>
+                <!-- Lien CV Français -->
+                <a href="cv-fr.pdf" target="_blank" class="inline-flex items-center gap-2 text-xs font-medium border border-stone-300 text-stone-700 px-4 py-2.5 rounded-full hover:border-stone-900 hover:text-stone-900 transition-all">
+                    <i data-lucide="file-text" class="w-3.5 h-3.5"></i> CV (Français)
+                </a>
+                <!-- Lien CV Anglais -->
+                <a href="cv-en.pdf" target="_blank" class="inline-flex items-center gap-2 text-xs font-medium border border-stone-300 text-stone-700 px-4 py-2.5 rounded-full hover:border-stone-900 hover:text-stone-900 transition-all">
+                    <i data-lucide="file-text" class="w-3.5 h-3.5"></i> CV (English)
+                </a>
+            </div>
+        </section>
+
+        <!-- Video Pitch Section -->
+        <section id="video-pitch" class="space-y-6 bg-stone-200/50 p-8 md:p-12 rounded-2xl border border-stone-200">
+            <div class="space-y-2">
+                <h2 class="text-xs font-semibold tracking-widest uppercase text-stone-500">Marketing 4 Careers</h2>
+                <h3 class="text-2xl font-light text-stone-900">Mon Elevator Pitch (Vidéo)</h3>
+                <p class="text-sm text-stone-600 font-light">Présentation orale de 2 à 3 minutes retraçant mon parcours, mes projets et mes ambitions.</p>
+            </div>
+            
+            <div class="aspect-video w-full bg-stone-300/80 rounded-xl flex flex-col items-center justify-center gap-3 border border-stone-300 text-stone-600">
+                <i data-lucide="video" class="w-10 h-10 stroke-[1.5]"></i>
+                <span class="text-xs font-medium">Espace réservé pour intégrer ou lier ta vidéo</span>
+            </div>
+        </section>
+
+        <!-- Projects & Background -->
+        <section id="projects" class="space-y-8">
+            <h2 class="text-xs font-semibold tracking-widest uppercase text-stone-500">Parcours & Projets Techniques</h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="p-6 rounded-xl bg-stone-200/50 border border-stone-200 space-y-3">
+                    <span class="text-xs font-medium text-stone-500">Lab Projet • ENSEEIHT</span>
+                    <h3 class="font-medium text-stone-900">Jeu "Snake" Modulaire en C</h3>
+                    <p class="text-xs text-stone-600 leading-relaxed font-light">
+                        Application d'une méthodologie de raffinage descendant pour décomposer le problème en sous programmes fonctionnels en langage C.
+                    </p>
+                </div>
+                <div class="p-6 rounded-xl bg-stone-200/50 border border-stone-200 space-y-3">
+                    <span class="text-xs font-medium text-stone-500">Projet Prépa</span>
+                    <h3 class="font-medium text-stone-900">Accordeur de Guitare Automatique</h3>
+                    <p class="text-xs text-stone-600 leading-relaxed font-light">
+                        Intégration d'un Raspberry Pi 3 A+, traitement de signal audio, implémentation d'algorithmes FFT (Python/Scilab) et conception d'un asservissement en boucle fermée pour commander un servomoteur.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mobility Section -->
+        <section id="mobility" class="space-y-6">
+            <h2 class="text-xs font-semibold tracking-widest uppercase text-stone-500">Projet de Mobilité Internationale</h2>
+            <div class="p-6 rounded-xl bg-stone-200/50 border border-stone-200 space-y-4">
+                <p class="text-sm text-stone-600 font-light leading-relaxed">
+                    Dans le cadre de mon cursus ingénieur à l'ENSEEIHT, j'ai pour ambition de réaliser une mobilité académique internationale pour élargir mon expertise technique et culturelle.
+                </p>
+                <div class="grid sm:grid-cols-3 gap-4 pt-2">
+                    <div class="p-4 rounded-lg bg-white/60 border border-stone-200/60">
+                        <h4 class="text-xs font-semibold text-stone-900 uppercase tracking-wide mb-1">Polytechnique Montréal</h4>
+                        <span class="text-xs text-stone-500">Canada</span>
+                    </div>
+                    <div class="p-4 rounded-lg bg-white/60 border border-stone-200/60">
+                        <h4 class="text-xs font-semibold text-stone-900 uppercase tracking-wide mb-1">NTU</h4>
+                        <span class="text-xs text-stone-500">Singapour</span>
+                    </div>
+                    <div class="p-4 rounded-lg bg-white/60 border border-stone-200/60">
+                        <h4 class="text-xs font-semibold text-stone-900 uppercase tracking-wide mb-1">Georgia Tech</h4>
+                        <span class="text-xs text-stone-500">États-Unis</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-stone-200 py-8 text-center text-xs text-stone-500 font-light">
+        <p>© 2026 Andrea Tabiasco • ENSEEIHT (N7) • E-Portfolio Marketing 4 Careers</p>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
