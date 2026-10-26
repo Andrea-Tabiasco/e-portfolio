@@ -139,4 +139,8 @@
     </script>
 </body>
 </html>
+lucide.createIcons();
+    </script>
+</body>
+</html>
         
