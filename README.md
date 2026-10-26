@@ -29,8 +29,8 @@
                 <a href="mailto:andrea.tabiasco@etu.toulouse-inp.fr" class="text-xs font-medium text-stone-600 hover:text-stone-900 transition-colors flex items-center gap-1.5">
                     <i data-lucide="mail" class="w-3.5 h-3.5"></i> andrea.tabiasco@etu.toulouse-inp.fr
                 </a>
-                <a href="tel:+33644372175" class="hidden sm:inline-flex items-center gap-1.5 text-xs font-medium text-stone-600 hover:text-stone-900 transition-colors">
-                    <i data-lucide="phone" class="w-3.5 h-3.5"></i> +33 6 44 37 21 75
+                <a href="tel:+33644372178" class="hidden sm:inline-flex items-center gap-1.5 text-xs font-medium text-stone-600 hover:text-stone-900 transition-colors">
+                    <i data-lucide="phone" class="w-3.5 h-3.5"></i> +33 6 44 37 21 78
                 </a>
             </div>
         </div>
@@ -73,7 +73,7 @@
             <div class="space-y-2">
                 <h2 class="text-xs font-semibold tracking-widest uppercase text-stone-500">Marketing 4 Careers</h2>
                 <h3 class="text-2xl font-light text-stone-900">Mon Elevator Pitch (Vidéo)</h3>
-                <p class="text-sm text-stone-600 font-light">Présentation orale de 2 à 3 minutes retraçant mon parcours, mes projets et mes ambitions.</p>
+                <p class="text-sm text-stone-600 font-light">Oral retraçant mon parcours, mes projets et mes ambitions.</p>
             </div>
             
             <div class="aspect-video w-full bg-stone-300/80 rounded-xl flex flex-col items-center justify-center gap-3 border border-stone-300 text-stone-600">
