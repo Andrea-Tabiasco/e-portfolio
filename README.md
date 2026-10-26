@@ -14,7 +14,7 @@
 <body class="bg-stone-100 text-stone-900 antialiased selection:bg-stone-900 selection:text-white">
 
     <!-- Navigation -->
-    <header class="fixed top-0 left-0 right-0 z-50 bg-stone-100/80 backdrop-blur-md border-b border-stone-200">
+    <header class="fixed top-0 left-0 right-0 z-50 bg-stone-100/90 backdrop-blur-md border-b border-stone-200">
         <div class="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
             <a href="#" class="font-semibold text-sm tracking-tight text-stone-900">AT.</a>
             <nav class="hidden md:flex space-x-8 text-xs font-medium tracking-wide text-stone-600">
@@ -23,7 +23,7 @@
                 <a href="#mobility" class="hover:text-stone-900 transition-colors">Mobilité</a>
             </nav>
             <div class="flex items-center gap-3">
-                <span class="text-xs font-medium border border-stone-300 px-3.5 py-1.5 rounded-full bg-stone-200/50 text-stone-700">
+                <span class="text-xs font-medium border border-stone-300 px-3.5 py-1.5 rounded-full bg-stone-200/50 text-stone-700 hidden sm:inline">
                     Contact :
                 </span>
                 <a href="mailto:andrea.tabiasco@etu.toulouse-inp.fr" class="text-xs font-medium text-stone-600 hover:text-stone-900 transition-colors flex items-center gap-1.5">
@@ -37,7 +37,7 @@
     </header>
 
     <!-- Main Content -->
-    <main class="max-w-4xl mx-auto px-6 pt-32 pb-24 space-y-24">
+    <main class="max-w-4xl mx-auto px-6 pt-36 pb-24 space-y-24">
 
         <!-- Hero Section -->
         <section class="space-y-6">
@@ -135,6 +135,10 @@
     </footer>
 
     <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
         lucide.createIcons();
     </script>
 </body>
